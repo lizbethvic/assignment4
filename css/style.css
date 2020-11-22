@@ -5,10 +5,39 @@ Universal Styling
 
 ======================================*/
 
-*
- {
+* {
    margin: 0;
    padding: 0;
    border: 0;
    box-sizing: border-box;
+ }
+
+ @font-face {
+   font-family: 'Kingdom';
+   src: url('../fonts/royale_kingdom/Kingdom.otf') format('opentype') ;
+ }
+
+ header {
+     width: 100%;
+     background: #403516
+
+}
+
+ .menu {
+    background: #403516;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 50px 50px 137px;
+    margin-left: 193px;
+ }
+
+ .menu ul li  {
+  display: inline;
+
+ }
+
+ .text {
+   font-family:'Kingdom', fantasy;
+   font-size: 32px;
+   letter-spacing: .05em;
  }
