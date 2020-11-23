@@ -55,7 +55,7 @@ h2 {
   margin: 0 auto;
   display: block;
   position: relative;
-  padding: 735px 430px 10px 420px;
+  padding: 338px 420px 10px 430px;
 }
 
 img.heart {
@@ -139,8 +139,8 @@ img.logo {
 section.anim {
   display: block;
   position: relative;
-  left: 150px;
-  top: -497px;
+  left: 600px;
+  top: -434px;
 }
 
 .frames {
