@@ -24,6 +24,40 @@ body {
 
 }
 
+section.info {
+    display: block;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+}
+
+h1 {
+  font-family: 'Crimson Text', serif;
+  font-size: 64px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.music {
+  color:#826d33;
+
+}
+
+h2 {
+  font-family:'Kingdom', fantasy;
+  font-size: 32px;
+  letter-spacing: .05em;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  padding: 735px 10px 10px 470px;
+}
+
+p {
+  font-family: 'Crimson Text', serif;
+  font-size: 23px;
+}
+
 
 /*======================================
 
@@ -90,6 +124,13 @@ img.logo {
     margin-right: auto;
     width: 50%;
     padding-top: 113px;
+}
+
+section.anim {
+  display: block;
+  position: relative;
+  left: 150px;
+  top: -497px;
 }
 
 .frames {
