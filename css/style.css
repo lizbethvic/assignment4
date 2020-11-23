@@ -37,6 +37,7 @@ Menu Styling
     background: #3c3c3c;
     position: fixed;
     width: 100%;
+    z-index:999;
 }
 
 
@@ -79,7 +80,7 @@ Menu Styling
 /*======================================
 
 
-Body Styling
+Body and Animation Styling
 
 ======================================*/
 
@@ -88,5 +89,70 @@ img.logo {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    padding-top: 70px;
+    padding-top: 113px;
+}
+
+.frames {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top {
+  position: absolute;
+  top: 630px;
+  left: auto;
+  right: auto;
+  animation: hop 5s .5s ease-in-out infinite;
+}
+
+.middle-left {
+  position: absolute;
+  top: 630px;
+  left: auto;
+  right: auto;
+  animation: hop 5s 2s ease-in-out infinite;
+}
+
+.middle-right {
+  position: absolute;
+  top: 630px;
+  left: auto;
+  right: auto;
+  animation: hop 5s 1.2s ease-in-out infinite;
+}
+
+.bottom-left {
+  position: absolute;
+  top: 641px;
+  left: auto;
+  right: auto;
+  animation: hop 5s 3.3s ease-in-out infinite;
+}
+
+.bottom-right {
+  position: absolute;
+  top: 630px;
+  left: auto;
+  right: auto;
+  animation: hop 5s 3.8s ease-in-out infinite;
+}
+
+.kairi {
+  position: absolute;
+  top: 315px;
+  left: auto;
+  right: auto;
+
+}
+
+@keyframes hop {
+  0% {
+    top:630px;
+  }
+  50% {
+    top:650px;
+  }
+  100% {
+    top:630px;
+  }
 }
