@@ -17,27 +17,76 @@ Universal Styling
    src: url('../fonts/royale_kingdom/Kingdom.otf') format('opentype') ;
  }
 
- header {
-     width: 100%;
-     background: #403516
+body {
+  background: #f2f2f2;
+  font-family: 'Crimson Text', serif;
+  text-transform: capitalize;
 
 }
 
- .menu {
-    background: #403516;
+
+/*======================================
+
+
+Menu Styling
+
+======================================*/
+
+
+.menu {
+    background: #3c3c3c;
+    position: fixed;
     width: 100%;
-    margin: 0 auto;
-    padding: 50px 50px 50px 137px;
-    margin-left: 193px;
- }
+}
 
- .menu ul li  {
-  display: inline;
 
- }
+.menu ul li {
+  display: inline-block;
+  background: #3c3c3c;
+  width: 33%;
+  margin-bottom: 1px;
+  vertical-align: top;
 
- .text {
-   font-family:'Kingdom', fantasy;
-   font-size: 32px;
-   letter-spacing: .05em;
- }
+
+}
+
+.menu ul li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 33px;
+  padding: 15px;
+
+}
+
+.menu ul li a:hover {
+  color:yellow;
+
+}
+
+.title {
+  color: white;
+  display: block;
+  padding: 15px;
+  font-family: 'Kingdom', fantasy;
+  font-size: 39px;
+  width: 39%;
+  text-align: center;
+
+}
+
+/*======================================
+
+
+Body Styling
+
+======================================*/
+
+img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 70px;
+}
